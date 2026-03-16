@@ -33,6 +33,7 @@ body {
   background-color: var(--blue-100);
   background-image: url(../images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
   font-family: "RedHatDisplay", sans-serif;
   font-weight: 500;
   min-height: 100vh;
@@ -152,7 +153,6 @@ body {
 @media (min-width: 1440px) {
   body {
     background-image: url(../images/pattern-background-desktop.svg);
-    background-size: 100%;
   }
   .order {
     max-width: 350px;
